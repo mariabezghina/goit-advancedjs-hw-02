@@ -1,0 +1,55 @@
+/* Styling for the entire countdown view */
+.countdown-section {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    margin: 100px;
+}
+
+/* FLEX CONTAINER for the Input and Button */
+.controls-row {
+    display: flex; 
+    gap: 8px; 
+    margin-bottom: 20px; 
+}
+
+/* 2. Styling the Input and Button (Basic visual styles) */
+#datetime-picker {
+    padding: 8px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+[data-start] {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* 3. Styling the Timer Display (Already uses Flex) */
+.timer {
+    display: flex;
+    gap: 25px; 
+}
+
+.field {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    
+}
+
+.value {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.label {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
